@@ -20,7 +20,6 @@
 
     <scm>
         <connection>scm:git:git://github.com/marcobrasci1986/jenkins-sandbox-private.git</connection>
-        <developerConnection>scm:git:git://github.com/marcobrasci1986/jenkins-sandbox-private.git</developerConnection>
         <url>https://github.com/marcobrasci1986/jenkins-sandbox-private</url>
       <tag>jenkins-sandbox-0.0.31</tag>
   </scm>
