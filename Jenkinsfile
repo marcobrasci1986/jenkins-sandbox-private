@@ -20,7 +20,7 @@ node {
 
 
     stage('Git Checkout') {
-        git credentialsId: 'Marco Bitbucket', url: 'https://github.com/marcobrasci1986/jenkins-sandbox-private.git'
+        git credentialsId: 'marco-git', url: 'https://github.com/marcobrasci1986/jenkins-sandbox-private.git'
 
     }
 
