@@ -13,12 +13,13 @@
     <version>0.0.40-SNAPSHOT</version>
     <name>jenkins-sandbox</name>
     <description>Demo project for Spring Boot</description>
-    
+
     <scm>
         <connection>scm:git:git@github.com:marcobrasci1986/jenkins-sandbox-private.git</connection>
         <developerConnection>scm:git:git@github.com:marcobrasci1986/jenkins-sandbox-private.git</developerConnection>
         <url>https://github.com/marcobrasci1986/jenkins-sandbox-private</url>
     </scm>
+
 
     <distributionManagement>
         <snapshotRepository>
