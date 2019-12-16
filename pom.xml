@@ -9,7 +9,7 @@
     </parent>
     <groupId>be.vutg.sandbox</groupId>
     <artifactId>jenkins-sandbox</artifactId>
-    <version>0.0.31-SNAPSHOT</version>
+    <version>0.0.31</version>
     <name>jenkins-sandbox</name>
     <description>Demo project for Spring Boot</description>
 
@@ -22,6 +22,7 @@
     <scm>
         <connection>scm:git:ssh://github.com/marcobrasci1986/jenkins-sandbox-private.git</connection>
         <url>https://github.com/marcobrasci1986/jenkins-sandbox-private</url>
+    <tag>jenkins-sandbox-0.0.31</tag>
   </scm>
 
     <distributionManagement>
