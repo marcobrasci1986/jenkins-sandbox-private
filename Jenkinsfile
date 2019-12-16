@@ -4,7 +4,7 @@ node {
     String gitCommit = ""
 
     stage('Git Checkout') {
-        git credentialsId: 'marco-git', url: 'https://github.com/marcobrasci1986/jenkins-sandbox-private.git'
+        git credentialsId: 'marco-git', url: 'git clone git@github.com:marcobrasci1986/jenkins-sandbox-private.git'
 
     }
 

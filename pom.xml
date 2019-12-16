@@ -14,9 +14,9 @@
     <description>Demo project for Spring Boot</description>
 
     <scm>
-        <connection>scm:git:ssh://git@bitbucket.org/vutg/jenkins-sandbox.git</connection>
-        <developerConnection>scm:git:ssh://git@bitbucket.org/vutg/jenkins-sandbox.git</developerConnection>
-        <url>https://bitbucket.org/vutg/jenkins-sandbox.git</url>
+        <connection>scm:git:ssh://git@github.com:marcobrasci1986/jenkins-sandbox-private.git</connection>
+<!--        <developerConnection>scm:git:ssh://git@bitbucket.org/vutg/jenkins-sandbox.git</developerConnection>-->
+        <url>git@github.com:marcobrasci1986/jenkins-sandbox-private.git</url>
         <tag>HEAD</tag>
     </scm>
 
