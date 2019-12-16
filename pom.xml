@@ -9,12 +9,12 @@
     </parent>
     <groupId>be.vutg.sandbox</groupId>
     <artifactId>jenkins-sandbox</artifactId>
-    <version>0.0.23</version>
+    <version>0.0.23-SNAPSHOT</version>
     <name>jenkins-sandbox</name>
     <description>Demo project for Spring Boot</description>
 
     <scm>
-<!--        <connection>scm:git:ssh://git@github.com:marcobrasci1986/jenkins-sandbox-private.git</connection>-->
+        <connection>scm:git:ssh://git@github.com:marcobrasci1986/jenkins-sandbox-private.git</connection>
 <!--        <developerConnection>scm:git:ssh://git@github.com:marcobrasci1986/jenkins-sandbox-private.gitt</developerConnection>-->
         <url>https://github.com/marcobrasci1986/jenkins-sandbox-private</url>
         <tag>jenkins-sandbox-0.0.23</tag>
