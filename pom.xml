@@ -20,7 +20,7 @@
     <!--    </scm>-->
 
     <scm>
-        <connection>scm:git:ssh://github.com/marcobrasci1986/jenkins-sandbox-private.git</connection>
+        <connection>scm:git:https://github.com/marcobrasci1986/jenkins-sandbox-private.git</connection>
         <url>https://github.com/marcobrasci1986/jenkins-sandbox-private</url>
     </scm>
 
