@@ -19,8 +19,7 @@
         <developerConnection>scm:git:git@github.com:marcobrasci1986/jenkins-sandbox-private.git</developerConnection>
         <url>https://github.com/marcobrasci1986/jenkins-sandbox-private</url>
     </scm>
-
-
+    
     <distributionManagement>
         <snapshotRepository>
             <id>maven-snapshots</id>
