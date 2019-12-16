@@ -13,13 +13,7 @@
     <version>0.0.40-SNAPSHOT</version>
     <name>jenkins-sandbox</name>
     <description>Demo project for Spring Boot</description>
-
-    <!--     <scm> -->
-    <!--        <connection>scm:git:https://github.com/marcobrasci1986/jenkins-sandbox-private.git</connection>-->
-    <!--        <url>https://github.com/marcobrasci1986/jenkins-sandbox-private</url>-->
-    <!--    </scm>-->
-
-    <!-- TODO how does maven release plugin use ssh? Permission denied (publickey)-->
+    
     <scm>
         <connection>scm:git:git@github.com:marcobrasci1986/jenkins-sandbox-private.git</connection>
         <developerConnection>scm:git:git@github.com:marcobrasci1986/jenkins-sandbox-private.git</developerConnection>
