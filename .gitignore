@@ -1,5 +1,4 @@
 HELP.md
-**/target/**
 **/target/**/**
 */target/**
 ~
@@ -19,7 +18,7 @@ logs
 .sts4-cache
 
 ### IntelliJ IDEA ###
-.idea/**
+.idea
 *.iws
 *.iml
 *.ipr
