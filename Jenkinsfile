@@ -24,12 +24,8 @@ node {
     }
 
 
-
-
     stage('Mvn build') {
-        withMaven(maven: 'maven3') {
-            sh "mvn clean install"
-        }
+        sh "mvn clean install"
     }
 
     // TODO do a release. First setup ssh connection with Bitbucket
