@@ -10,7 +10,7 @@
     </parent>
     <groupId>be.vutg.sandbox</groupId>
     <artifactId>jenkins-sandbox</artifactId>
-    <version>0.0.35</version>
+    <version>0.0.35-SNAPSHOT</version>
     <name>jenkins-sandbox</name>
     <description>Demo project for Spring Boot</description>
 
