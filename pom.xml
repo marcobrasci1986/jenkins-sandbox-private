@@ -14,7 +14,7 @@
     <name>jenkins-sandbox</name>
     <description>Demo project for Spring Boot</description>
 
-<!--    <scm>-->
+    <!--    <scm>-->
     <!--        <connection>scm:git:https://github.com/marcobrasci1986/jenkins-sandbox-private.git</connection>-->
     <!--        <url>https://github.com/marcobrasci1986/jenkins-sandbox-private</url>-->
     <!--    </scm>-->
