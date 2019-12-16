@@ -29,15 +29,13 @@ node {
     }
 
     // TODO do a release. First setup ssh connection with Bitbucket
-//    stage('Mvn release') {
-////        sh "git config user.name 'marcobrasci1986'"
-////        sh "git config user.email 'marco_brasci@hotmail.com'"
-//
-//        withMaven(maven: 'maven3') {
-//            sh "mvn release:clean"
-//            sh "mvn -B release:prepare release:perform"
-//        }
-//    }
+    stage('Mvn release') {
+//        sh "git config user.name 'marcobrasci1986'"
+//        sh "git config user.email 'marco_brasci@hotmail.com'"
+
+        sh "mvn release:clean"
+        sh "mvn -B release:prepare release:perform"
+    }
 
     /**
      * Based on https://jenkins.io/doc/book/pipeline/docker/
