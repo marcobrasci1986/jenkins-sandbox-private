@@ -3,6 +3,11 @@ node {
     String mavenVersion = ""
     String gitCommit = ""
 
+    stage('Git Checkout') {
+        git credentialsId: 'marco-git', url: 'https://github.com/marcobrasci1986/jenkins-sandbox-private.git'
+
+    }
+
     /**
      * How to set env variable:
      * env.JENKINS_SANDBOX_TAG = "latest"
@@ -19,10 +24,7 @@ node {
     }
 
 
-    stage('Git Checkout') {
-        git credentialsId: 'marco-git', url: 'https://github.com/marcobrasci1986/jenkins-sandbox-private.git'
 
-    }
 
     stage('Mvn build') {
         withMaven(maven: 'maven3') {
